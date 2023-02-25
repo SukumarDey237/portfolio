@@ -1,0 +1,28 @@
+footer {
+  color: white;
+  background-color: #313131;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-name {
+  font-size: clamp(2rem, 3vw, 4rem);
+  font-family: "Bungee", cursive;
+}
+
+.footer-icons-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+  text-decoration: none;
+  color: #fff;
+  margin: 1rem 2rem 0 2rem;
+  padding: 0.5rem;
+}
+.footer-icon:hover{
+    color: white;
+    background-color: #222;
+    border-radius: 10%;
+}

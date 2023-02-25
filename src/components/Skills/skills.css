@@ -1,0 +1,36 @@
+.skills {
+  color: white;
+  background-color: #0093e9;
+  background-image: -webkit-linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+  background-image: -moz-linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+  background-image: -o-linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+  background-image: linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.skill-grid {
+  height: 460px;
+  overflow: scroll;
+}
+
+.pill {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.icon {
+  padding: 0.5rem;
+  width: 5rem;
+  aspect-ratio: 1;
+}
+
+.txt {
+  padding: 0;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 700;
+  flex-grow: 1;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}

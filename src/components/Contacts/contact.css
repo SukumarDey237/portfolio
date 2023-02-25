@@ -1,0 +1,62 @@
+.contact {
+  color: white;
+  background-color: #0093e9;
+  background-image: -webkit-linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+  background-image: -moz-linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+  background-image: -o-linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+  background-image: linear-gradient(0deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.contact-left {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-message{
+  width: min(500px, 100%);
+  font-weight: bold;
+}
+
+.contact-right {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(10, 0, 0, 0.1);
+}
+
+.form-header {
+  font-family: "Bungee", cursive;
+  font-size: clamp(1.25em, 2.5vw, 1.5em);
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-field {
+  padding: 0.5em;
+  width: min(550px, 100%);
+  background-color: #f1f1f1;
+  border: none;
+  outline: none;
+  border-radius: 1em;
+}
+
+.message {
+  height: 200px;
+}
+
+.submit-btn {
+  padding: 0.5em;
+  width: min(550px, 100%);
+  border: none;
+  border-radius: 1em;
+  background-color: #0093e9;
+  font-weight: bold;
+  color: #fff;
+}

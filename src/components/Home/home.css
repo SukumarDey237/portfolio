@@ -1,0 +1,38 @@
+.home {
+  position: relative;
+  padding-bottom: 0;
+  height: calc(100vh - 5rem);
+  background: #00dbde;
+  background: -webkit-linear-gradient(25deg, #00dbde, #fc00ff);
+  background: linear-gradient(25deg, #00dbde, #fc00ff);
+}
+
+.home-left {
+  color: white;
+}
+
+.header {
+  margin-top: 1rem;
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  font-family: "Bungee", cursive;
+  cursor: default;
+}
+
+.name {
+  font-size: 2em;
+  font-family: "Bungee", cursive;
+  line-height: 1em;
+  margin-top: 1rem;
+}
+
+.cv {
+  position: absolute;
+  bottom: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.15rem);
+  font-family: "Bungee", cursive;
+  border: 0.25em solid white;
+  z-index: 10;
+}
+.cv:hover {
+  color: #00dbde;
+}

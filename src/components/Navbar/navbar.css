@@ -1,0 +1,48 @@
+.navbar-name {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "Bungee", cursive;
+}
+.navbar-name:hover {
+  color: black;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  border: none;
+}
+.hamburger-btn:hover {
+  transform: rotate(180deg);
+  scale: 1.25;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+}
+
+.navbar-footer {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link {
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.menu-link > * {
+  font-size: 1.5rem;
+  font-family: "Bungee", cursive;
+  color: black;
+}
+.menu-link:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 1s ease-in-out;
+}

@@ -1,0 +1,35 @@
+.about {
+  position: relative;
+}
+.about::after {
+  content: "";
+  background-image: url(/public/static/img/topo-pattern.jpg);
+  background-size: contain;
+  border-radius: 1.5rem;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.about-left {
+  display: grid;
+  place-items: center;
+}
+
+.about-img {
+  width: clamp(250px, 80% , 300px);
+  border-radius: 1rem;
+}
+
+.about-right {
+  margin: auto;
+  width: min(600px, 100%);
+  align-self: center;
+  justify-self: center;
+  font-weight: bold;
+  text-align: center;
+}
